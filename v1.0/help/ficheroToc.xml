@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<toc version="1.0">
+   <tocitem text="Indice general" target="aplicacion">
+      <tocitem text="Ventana principal" target="ventana_principal"/>
+      <tocitem text="Login" target="ventana_login"/>
+      <tocitem text="Administrar usuarios" target="ventana_adminusuarios"/>
+      <tocitem text="Administrar productos" target="ventana_adminproductos"/>
+   </tocitem>
+</toc>

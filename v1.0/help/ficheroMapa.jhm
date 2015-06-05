@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<map version="1.0">
+   <mapID target="aplicacion" url="html/main.html" />
+   <mapID target="ventana_principal" url="html/ventanaPrincipal.html" />
+   <mapID target="ventana_login" url="html/login.html" />
+   <mapID target="ventana_adminproductos" url="html/adminProd.html" />
+   <mapID target="ventana_adminusuarios" url="html/adminUsers.html" />
+</map>

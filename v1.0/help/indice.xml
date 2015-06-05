@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<index version="1.0">
+
+  <indexitem text="Indice general" target="aplicacion"/>
+
+	<indexitem text="Ventana principal" target="ventana_principal"/>
+	<indexitem text="Login" target="ventana_login"/>
+	<indexitem text="Administrar usuarios" target="ventana_adminusuarios"/>
+	<indexitem text="Administrar productos" target="ventana_adminproductos"/>
+
+</index>
