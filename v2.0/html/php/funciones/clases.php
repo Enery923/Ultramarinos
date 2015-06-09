@@ -24,7 +24,11 @@ class productos{
 	var $tamanio;
 	var $id_categoria;
 	
-	
+	/*
+	 * function setPoints($newPoints){
+		$this->points+=$newPoints;
+	}
+	 */
 	function productos($id, $nombre, $stock, $price, $marca, $tamanio, $id_categoria){
 		$this->id=$id;
 		$this->nombre=$nombre;	
@@ -39,14 +43,23 @@ class productos{
 		return	$this->id;}
 	function getNombre(){
 		return $this->nombre;}
+	function setStock($newStock){
+			$this->stock=$newStock;
+	}
 	function getStock(){
 		return $this->stock;}
 	function getPrice(){
 		return $this->price;}
+	function setPrice($newPrice){
+		$this->price=$newPrice;
+	}
 	function getMarca(){
 		return $this->marca;}
 	function getTamnio(){
 		return $this->tamanio;}
+	function setTamanio($newTam){
+		$this->tamanio=$newTam;
+	}
 	function getId_Categoria(){
 		return $this->id_categoria;}
 	
@@ -65,12 +78,10 @@ class categorias{
 	}
 	
 	function getNombre(){
-		return $this->nombre;
-	}
+		return $this->nombre;}
 	
 	function getId_producto(){
-		return $this->id_producto;
-	}
+		return $this->id_producto;}
 }
 
 class usuarios{

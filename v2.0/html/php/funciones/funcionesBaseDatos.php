@@ -1,5 +1,5 @@
 <?
-
+//SIN TOCAR AUN
 class dataBase{
 	//me conecto a la base de datos
 	function connectDB(){
