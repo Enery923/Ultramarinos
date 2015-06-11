@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 11-06-2015 a las 23:27:16
+-- Tiempo de generación: 12-06-2015 a las 00:47:53
 -- Versión del servidor: 5.6.24
 -- Versión de PHP: 5.6.8
 
@@ -43,16 +43,17 @@ CREATE TABLE IF NOT EXISTS `productos` (
   `precio` double NOT NULL,
   `stock` int(11) NOT NULL,
   `marca` varchar(200) NOT NULL,
-  `tamanio` double NOT NULL,
+  `tamanio` varchar(200) NOT NULL,
   `id_categoria` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `productos`
 --
 
 INSERT INTO `productos` (`id_producto`, `nombre`, `precio`, `stock`, `marca`, `tamanio`, `id_categoria`) VALUES
-(1, 'aceite', 5, 5, 'oliva', 200, 0);
+(1, 'aceite', 5, 5, 'oliva', '200', 0),
+(8, 'leche', 0, 0, 'ram', '1', 0);
 
 -- --------------------------------------------------------
 
@@ -102,7 +103,7 @@ ALTER TABLE `categorias`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
+  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

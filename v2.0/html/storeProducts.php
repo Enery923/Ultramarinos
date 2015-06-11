@@ -46,7 +46,7 @@
 							Precio
 						</td>
 						<td>
-							Unidades disponibles/Stock
+							Unidades/Stock
 						</td>
 						<td>
 							Marca
@@ -59,7 +59,6 @@
 					</tr>
 					
 				
-					
 					<tbody>
 						<?php while ($row= $resultado-> fetch_assoc()){?> 
 							<tr id="second">
@@ -70,10 +69,13 @@
 								<td><?php echo $row ['tamanio'] ;?></td>
 								
 								<td>
+									
 									<a href="modificarProducto.php?id_producto=<?php echo $row['id_producto'];?>">Modificar</a>
 								</td>
 								<td>
+									
 									<a href="eliminarProducto.php?id_producto=<?php echo $row['id_producto'];?>">Eliminar</a>
+								
 								</td>
 							</tr>
 							

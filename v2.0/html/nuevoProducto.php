@@ -25,7 +25,7 @@
 					 </tr>
 					 
 					 <tr id="first">
-						<td><b>Unidades disponibles/Stock</b></td>
+						<td><b>Unidades/Stock</b></td>
 						<td><input type= "text" name = "stock" /></td>
 					 </tr>
 					 
