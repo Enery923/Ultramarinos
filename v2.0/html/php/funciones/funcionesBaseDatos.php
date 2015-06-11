@@ -6,13 +6,7 @@ class dataBase{
 		//hallo la ruta de la carpeta seguridad para obtener el archivo con los datos de conexión
 		# Windows: c:/ServidoresLocales/Apache/htdocs
 		$path=$_SERVER['DOCUMENT_ROOT'];
-		//echo $path; /var/wwww)
-		//crear la carpeta seguridad y dentro de ella el mysql.inc.php y el htacces si hace falta
-		//comprobar si hay que cambiar configuraciones
-		//$parts=explode('/',$path);
-		//$parts[sizeof($parts)-1]="";
-		//$finalPath=implode("/",$parts)."seguridad/";
-		//include($finalPath."mysql.inc.php");
+		
 		include("/var/lib/mysql/10569937caa2b6913ca7f7b533c2d4be/mysql.inc.php");
 		print($mysql_login);
 		//con esos datos hago la conexión a la base de datos
