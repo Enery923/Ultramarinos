@@ -18,7 +18,7 @@
 	</head>
 	<body>
 		<div id="header">
-			<a href="index.html"><h1>LA FRUTERIA EN CASA</h1></a>
+			<h1>LA FRUTERIA EN CASA</h1>
 		</div>
 			<div id="content">
 				<a href="nuevoUsuario.php"><b>Nuevo usuario</b></a>

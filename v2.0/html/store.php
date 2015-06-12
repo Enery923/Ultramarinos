@@ -26,15 +26,11 @@
 						  <option value="Default">Escoge la categor&iacutea</option>
 						  
 						  <!--CATEGORIAS DE LOS PRODUCTOS-->
-						   <option value="Congelados">Congelados</option>
-						  <option value="Lacteos">L&aacutecteos </option>	
+						  <option value="Congelados">Congelados</option>
+						  <option value="Lacteos">L&aacutecteos </option>
 					</select> 
 				</div>
 			
-				<a href="nuevoProducto.php"><b>Nuevo producto</b></a>
-				<p></p>
-				
-				
 				<table id="cat">
 				<thead>
 					<tr id="first">
@@ -57,8 +53,6 @@
 						<td></td>
 						<td></td>
 					</tr>
-					
-				
 					<tbody>
 						<?php while ($row= $resultado-> fetch_assoc()){?> 
 							<tr id="second">
@@ -67,18 +61,7 @@
 								<td><?php echo $row ['stock'] ;?></td>
 								<td><?php echo $row ['marca'] ;?></td>
 								<td><?php echo $row ['tamanio'] ;?></td>
-								
-								<td>
-									
-									<a href="modificarProducto.php?id_producto=<?php echo $row['id_producto'];?>">Modificar</a>
-								</td>
-								<td>
-									
-									<a href="eliminarProducto.php?id_producto=<?php echo $row['id_producto'];?>">Eliminar</a>
-								
-								</td>
 							</tr>
-							
 						<?php } ?>
 					</tbody>	
 				</table>
