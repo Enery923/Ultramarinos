@@ -1,8 +1,6 @@
 Limpiar las clases que sobran.
 Implementar las categorias
 Implementar Logout
-Implementar la ayuda
 Implementar la copia de seguridad
-Hacer la prueba de caja blanca y caja negra
 Redactar las reuniones de scrum
 Pasar un el log de git a txt 
