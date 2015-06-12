@@ -42,7 +42,7 @@ try{
 +					header("location:http://localhost/myproject1/v2.0/html/gestorJefe.php");
 +					break;//boss
 +			case 2:
-+					header("location:http://localhost/myproject1/v2.0/html/gestorDependiente.php");
++					header("location:http://localhost/myproject1/v2.0/html/storeProducts.php");
 +					break;//Employee
 +			case 3:
 +					header("location:http://localhost/myproject1/v2.0/html/store.php");
