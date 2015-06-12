@@ -2,14 +2,13 @@
 	
 	require('conexion.php');
 	
+
+	$id_usuario=$_POST['id_usuario'];
+	$usuario=$_POST['usuario'];
+	$password=$_POST['password'];
+	$tipo=$_POST['tipo'];
 	
-	$nombre=$_POST['nombre'];
-	$marca=$_POST['marca'];
-	$precio=$_POST['precio'];
-	$stock=$_POST['stock'];
-	$tamanio=$_POST['tamanio'];
-	
-	$query="INSERT INTO productos (nombre, precio, stock, marca, tamanio) VALUES ('$nombre','$precio','$stock', '$marca', '$tamanio')";
+	$query = "UPDATE usuarios SET usuario='$usuario', tipo='$tipo', password='$password' WHERE id_usuario= '$id_usuario'";
 	
 	$resultado=$conexion->query($query);
 	
@@ -29,12 +28,12 @@
 		<center>	
 			
 			<?php if($resultado>0){ ?>
-				<h1>Producto registrado</h1>
+				<h1>Usuario modificado</h1>
 				<?php }else{ ?>
-				<h1>Error al registrar producto</h1>		
+				<h1>Error al modificar usuario</h1>		
 			<?php	} ?>		
 			<p></p>	
-			<a href="storeProducts.php">Volver a tabla</a>
+			<a href="storeUsuarios.php">Volver a tabla</a>
 		</center>
 	</body>
 </html>	

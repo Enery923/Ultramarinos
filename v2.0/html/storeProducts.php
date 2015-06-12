@@ -27,7 +27,7 @@
 						  
 						  <!--CATEGORIAS DE LOS PRODUCTOS-->
 						  <option value="Empleados">Empleados</option>
-						  <option value="Stock">Almac&eacuten</option>
+						  <option value="Stock">Almac&eacuten </option>
 					</select> 
 				</div>
 			
