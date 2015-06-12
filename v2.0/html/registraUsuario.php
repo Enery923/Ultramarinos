@@ -23,7 +23,7 @@
 	</head>
 	<body>
 		<div id="header">
-			<a href="index.html"><h1>LA FRUTERIA EN CASA</h1></a>
+			<h1>LA FRUTERIA EN CASA</h1>
 		</div>
 		<center>	
 			
@@ -34,6 +34,8 @@
 			<?php	} ?>		
 			<p></p>	
 			<a href="storeUsuarios.php">Volver a tabla</a>
+			<p></p>
+			<a href="registroAyuda.html">Ayuda</a>
 		</center>
 	</body>
 </html>	

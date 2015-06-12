@@ -39,20 +39,20 @@ try{
 	if($nr == 1){
 		switch($row[2]){
 			case 1:
-					header("location:http://localhost/myproject1/v2.0/html/gestorJefe.php");
+					header("location:http://localhost/GitHub/Ultramarinos/v2.0/html/gestorJefe.php");
 					break;//boss
 			case 2:
-					header("location:http://localhost/myproject1/v2.0/html/gestorDependiente.php");
+					header("location:http://localhost/GitHub/Ultramarinos/v2.0/html/gestorDependiente.php");
 					break;//Employee
 			case 3:
-					header("location:http://localhost/myproject1/v2.0/html/store.php");
+					header("location:http://localhost/GitHub/Ultramarinos/v2.0/html/store.php");
 					break;//Client
 		}
 		
 	}else{
 		echo "Su usuario es incorrecto. Vuelvalo a intentar de nuevo";
 		echo "<br/>";
-		echo "<a href='http://localhost/myproject1/v2.0/html/index.html'>atr&aacutes</a>";
+		echo "<a href='http://localhost/GitHub/Ultramarinos/v2.0/html/index.html'>atr&aacutes</a>";
 	}
 }catch(Exception $error){
 	mysql_close($con);

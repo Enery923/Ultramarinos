@@ -20,6 +20,10 @@
 		<div id="header">
 			<h1>LA FRUTERIA EN CASA</h1>
 		</div>
+		
+		<p></p>
+			<a href = "usuariosAyuda.html"> Ayuda </a>
+		<p></p>
 			<div id="content">
 				<a href="nuevoUsuario.php"><b>Nuevo usuario</b></a>
 				<p></p>

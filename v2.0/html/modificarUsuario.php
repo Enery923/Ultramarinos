@@ -21,11 +21,12 @@
 	</head>
 	<body>
 		<div id="header">
-			<a href="index.html"><h1>LA FRUTERIA EN CASA</h1></a>
+			<h1>LA FRUTERIA EN CASA</h1>
 		</div>
 		
 		<form name = "usuario_modificado" method = "POST" action = "confirmaModifUsuario.php">
 			</div>
+			<a href="modificarUsuAyuda.html">Ayuda</a>
 				<div id="content">
 					<table id="cat">
 						 <tr id="first">

@@ -25,7 +25,7 @@
 	</head>
 	<body>
 		<div id="header">
-			<a href="index.html"><h1>LA FRUTERIA EN CASA</h1></a>
+			<h1>LA FRUTERIA EN CASA</h1>
 		</div>
 		<center>	
 			
@@ -36,6 +36,8 @@
 			<?php	} ?>		
 			<p></p>	
 			<a href="storeProducts.php">Volver a tabla</a>
+			<p></p>
+			<a href = "confirmarAyuda.html"> Ayuda </a>
 		</center>
 	</body>
 </html>	

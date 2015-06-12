@@ -7,11 +7,13 @@
 	</head>
 	<body>
 		<div id="header">
-			<a href="index.html"><h1>LA FRUTERIA EN CASA</h1></a>
+			<h1>LA FRUTERIA EN CASA</h1>
 		</div>
 		
+			
 		<form name = "nuevo_usuario" method = "POST" action = "registraUsuario.php">
 		</div>
+			<a href="nuevoUsuAyuda.html">Ayuda</a>
 			<div id="content">
 				<table id="cat">
 					 <tr id="first">
@@ -32,7 +34,7 @@
 					 <tr id="first">
 						<td colspan = "2"> <center><input type ="submit" name = "enviar" value = "Registrar usuario" /></center></td>
 					 </tr>
-		
+					
 				</table>
 			</div>
 			<div id="footer">

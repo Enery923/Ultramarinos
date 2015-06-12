@@ -20,6 +20,10 @@
 		<div id="header">
 			<h1>LA FRUTERIA EN CASA</h1>
 		</div>
+		
+		<p></p>
+			<a href = "productosAyuda.html"> Ayuda </a>
+		<p></p>
 			<div id="content">
 				<div id="catFruit">
 					 <select id="catFruit">
