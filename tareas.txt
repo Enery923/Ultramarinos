@@ -1,4 +1,3 @@
-Limpiar las clases que sobran.
 Redactar las reuniones de scrum
 Pasar un el log de git a txt 
 
