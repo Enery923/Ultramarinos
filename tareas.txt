@@ -1,3 +1,4 @@
-Clases.php
-	Los setters
-	
+Redactar las reuniones de scrum
+Pasar un el log de git a txt 
+
+¡¡¡¡Problemas para añadir usuarios!!!!
