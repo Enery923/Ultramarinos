@@ -7,16 +7,13 @@
 	</head>
 	<body>
 		<h1>LA FRUTERIA EN CASA</h1>
-		
-		<p></p>
-		<a href="gestorJefeAyuda.html">Ayuda</a>
 		<table id="principal"	>
 			<tr>
 				<td class="button">
-					<a href="storeProducts.php"><b>Almac&eacuten </b></a>
+					<a href="http://localhost/myproject1/v2.0/html/storeProducts.php"><b>Almac&eacuten </b></a>
 				</td>
 				<td class="button">
-					<a href="storeUsuarios.php"><b>Personal <b></a>
+					<a href="http://localhost/myproject1/v2.0/html/storeUsuarios.php"><b>Personal <b</a>
 				</td>
 			</tr>
 		</table>

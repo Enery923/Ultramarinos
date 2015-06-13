@@ -11,8 +11,8 @@ error_reporting(0);
 		session_start();
 
 //declaramos como variables a los campos de texto del formulario.
-$nombre=$_GET["userName"];	
-$password=$_GET["userPassword"];
+$nombre=$_POST["userName"];	
+$password=$_POST["userPassword"];
 
 function Conectarse(){
 	if(!($link=mysql_connect('localhost','root'))){
@@ -38,21 +38,21 @@ $nr = mysql_num_rows($result);
 try{
 	if($nr == 1){
 		switch($row[2]){
-+			case 1:
-+					header("location:http://localhost/myproject1/v2.0/html/gestorJefe.php");
-+					break;//boss
-+			case 2:
-+					header("location:http://localhost/myproject1/v2.0/html/storeProducts.php");
-+					break;//Employee
-+			case 3:
-+					header("location:http://localhost/myproject1/v2.0/html/store.php");
-+					break;//Client
-+		}
+			case 1:
+					header("location:http://localhost/myproject1/v2.0/html/gestorJefe.php");
+					break;//boss
+			case 2:
+					header("location:http://localhost/myproject1/v2.0/html/storeProducts.php");
+					break;//Employee
+			case 3:
+					header("location:http://localhost/myproject1/v2.0/html/store.php");
+					break;//Client
+		}
 		
 	}else{
-		echo "Su usuario es incorrecto. Vuelvalo a intentar de nuevo";
+		echo "Su usuario es incorrecto. Vuelva a intentarlo de nuevo";
 		echo "<br/>";
-		echo "<a href='http://localhost/GitHub/Ultramarinos/v2.0/html/index.html'>atr&aacutes</a>";
+		echo "<a href='http://localhost/myproject1/v2.0/html/index.html'>ATR&AacuteS</a>";
 	}
 }catch(Exception $error){
 	mysql_close($con);

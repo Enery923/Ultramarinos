@@ -1,6 +1,5 @@
 Limpiar las clases que sobran.
-Implementar las categorias
-Implementar Logout
-Implementar la copia de seguridad
 Redactar las reuniones de scrum
 Pasar un el log de git a txt 
+
+¡¡¡¡Problemas para añadir usuarios!!!!
